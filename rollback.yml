@@ -1,0 +1,7 @@
+---
+- name: Rollback
+  hosts: all
+  tasks:
+    - name: Rollback
+      ansible.builtin.debug:
+        msg: "Rollback déclenché"

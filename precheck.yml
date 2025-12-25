@@ -1,0 +1,7 @@
+---
+- name: Precheck
+  hosts: all
+  gather_facts: false
+  tasks:
+    - name: Vérifier la connectivité
+      ansible.builtin.ping:

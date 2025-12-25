@@ -1,0 +1,7 @@
+---
+- name: Validate
+  hosts: all
+  tasks:
+    - name: Validation post-déploiement
+      ansible.builtin.debug:
+        msg: "Application validée"

@@ -1,0 +1,7 @@
+---
+- name: Deploy
+  hosts: all
+  tasks:
+    - name: Simuler un déploiement
+      ansible.builtin.debug:
+        msg: "Déploiement de l'application"
